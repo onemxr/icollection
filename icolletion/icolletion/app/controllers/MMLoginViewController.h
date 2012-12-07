@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MMLoginViewController.h
 //  icolletion
 //
 //  Created by onemx on 12-12-8.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MMLoginViewController : UIViewController
 
-- (IBAction)LoginAction:(id)sender;
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MMLoginViewController.h"
 @interface ViewController ()
 
 @end
@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)LoginAction:(id)sender {
+    MMLoginViewController *mmLoginView = [[MMLoginViewController alloc]initWithNibName:@"MMLoginViewController" bundle:nil];
+    [self.navigationController pushViewController:mmLoginView animated:YES];
+    [mmLoginView release];
+}
 @end
