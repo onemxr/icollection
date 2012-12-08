@@ -12,18 +12,26 @@
 		C84A072A1672FBF600C81980 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84A07291672FBF600C81980 /* QuartzCore.framework */; };
 		C84A072E16730AAD00C81980 /* MMLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A072C16730AAD00C81980 /* MMLeftViewController.m */; };
 		C84A072F16730AAD00C81980 /* MMLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84A072D16730AAD00C81980 /* MMLeftViewController.xib */; };
+		C84A07311673182D00C81980 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A07301673182D00C81980 /* ViewController.m */; };
+		C84A073C1673184600C81980 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07321673184600C81980 /* back_button.png */; };
+		C84A073D1673184600C81980 /* back_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07331673184600C81980 /* back_button@2x.png */; };
+		C84A073E1673184600C81980 /* login_button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07341673184600C81980 /* login_button_black.png */; };
+		C84A073F1673184600C81980 /* login_button_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07351673184600C81980 /* login_button_black@2x.png */; };
+		C84A07401673184600C81980 /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07361673184600C81980 /* login_button.png */; };
+		C84A07411673184600C81980 /* login_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07371673184600C81980 /* login_button@2x.png */; };
+		C84A07421673184600C81980 /* nav_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07381673184600C81980 /* nav_launcher.png */; };
+		C84A07431673184600C81980 /* nav_launcher@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A07391673184600C81980 /* nav_launcher@2x.png */; };
+		C84A07441673184600C81980 /* next_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A073A1673184600C81980 /* next_button.png */; };
+		C84A07451673184600C81980 /* next_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C84A073B1673184600C81980 /* next_button@2x.png */; };
 		C8BC957C16725DA80089BB53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC957B16725DA80089BB53 /* UIKit.framework */; };
 		C8BC957E16725DA80089BB53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC957D16725DA80089BB53 /* Foundation.framework */; };
 		C8BC958016725DA80089BB53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC957F16725DA80089BB53 /* CoreGraphics.framework */; };
 		C8BC958616725DA80089BB53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8BC958416725DA80089BB53 /* InfoPlist.strings */; };
 		C8BC959816725DA80089BB53 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8BC959616725DA80089BB53 /* ViewController.xib */; };
-		C8BC95B716725F8D0089BB53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BC95A516725F8D0089BB53 /* ViewController.m */; };
 		C8BC95B916725F8D0089BB53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BC95B016725F8D0089BB53 /* main.m */; };
 		C8BC95BA16725F8D0089BB53 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95B416725F8D0089BB53 /* Default-568h@2x.png */; };
 		C8BC95BB16725F8D0089BB53 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95B516725F8D0089BB53 /* Default.png */; };
 		C8BC95BC16725F8D0089BB53 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95B616725F8D0089BB53 /* Default@2x.png */; };
-		C8BC95C9167260910089BB53 /* back_button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95C3167260910089BB53 /* back_button_black.png */; };
-		C8BC95CA167260910089BB53 /* back_button_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95C4167260910089BB53 /* back_button_grey.png */; };
 		C8BC95CC1672630D0089BB53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BC95CB1672630D0089BB53 /* AppDelegate.m */; };
 		C8BC95CF1672631D0089BB53 /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95CD1672631D0089BB53 /* nav_bg.png */; };
 		C8BC95D01672631D0089BB53 /* nav_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8BC95CE1672631D0089BB53 /* nav_bg@2x.png */; };
@@ -40,6 +48,17 @@
 		C84A072B16730AAD00C81980 /* MMLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLeftViewController.h; sourceTree = "<group>"; };
 		C84A072C16730AAD00C81980 /* MMLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLeftViewController.m; sourceTree = "<group>"; };
 		C84A072D16730AAD00C81980 /* MMLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMLeftViewController.xib; sourceTree = "<group>"; };
+		C84A07301673182D00C81980 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C84A07321673184600C81980 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
+		C84A07331673184600C81980 /* back_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_button@2x.png"; sourceTree = "<group>"; };
+		C84A07341673184600C81980 /* login_button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button_black.png; sourceTree = "<group>"; };
+		C84A07351673184600C81980 /* login_button_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_button_black@2x.png"; sourceTree = "<group>"; };
+		C84A07361673184600C81980 /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_button.png; sourceTree = "<group>"; };
+		C84A07371673184600C81980 /* login_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_button@2x.png"; sourceTree = "<group>"; };
+		C84A07381673184600C81980 /* nav_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_launcher.png; sourceTree = "<group>"; };
+		C84A07391673184600C81980 /* nav_launcher@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_launcher@2x.png"; sourceTree = "<group>"; };
+		C84A073A1673184600C81980 /* next_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_button.png; sourceTree = "<group>"; };
+		C84A073B1673184600C81980 /* next_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next_button@2x.png"; sourceTree = "<group>"; };
 		C8BC957716725DA80089BB53 /* icolletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icolletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BC957B16725DA80089BB53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8BC957D16725DA80089BB53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -49,14 +68,11 @@
 		C8BC958916725DA80089BB53 /* icolletion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "icolletion-Prefix.pch"; sourceTree = "<group>"; };
 		C8BC959716725DA80089BB53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		C8BC95A416725F8D0089BB53 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C8BC95A516725F8D0089BB53 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C8BC95AE16725F8D0089BB53 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C8BC95B016725F8D0089BB53 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8BC95B416725F8D0089BB53 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C8BC95B516725F8D0089BB53 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C8BC95B616725F8D0089BB53 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		C8BC95C3167260910089BB53 /* back_button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button_black.png; sourceTree = "<group>"; };
-		C8BC95C4167260910089BB53 /* back_button_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button_grey.png; sourceTree = "<group>"; };
 		C8BC95CB1672630D0089BB53 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C8BC95CD1672631D0089BB53 /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
 		C8BC95CE1672631D0089BB53 /* nav_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg@2x.png"; sourceTree = "<group>"; };
@@ -158,15 +174,15 @@
 		C8BC95A316725F8D0089BB53 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C8BC95A416725F8D0089BB53 /* ViewController.h */,
-				C8BC95A516725F8D0089BB53 /* ViewController.m */,
-				C8BC959616725DA80089BB53 /* ViewController.xib */,
-				C8BC95D1167264A90089BB53 /* MMLoginViewController.h */,
-				C8BC95D2167264A90089BB53 /* MMLoginViewController.m */,
-				C8BC95D3167264A90089BB53 /* MMLoginViewController.xib */,
 				C84A072B16730AAD00C81980 /* MMLeftViewController.h */,
 				C84A072C16730AAD00C81980 /* MMLeftViewController.m */,
 				C84A072D16730AAD00C81980 /* MMLeftViewController.xib */,
+				C8BC95D1167264A90089BB53 /* MMLoginViewController.h */,
+				C8BC95D2167264A90089BB53 /* MMLoginViewController.m */,
+				C8BC95D3167264A90089BB53 /* MMLoginViewController.xib */,
+				C8BC95A416725F8D0089BB53 /* ViewController.h */,
+				C84A07301673182D00C81980 /* ViewController.m */,
+				C8BC959616725DA80089BB53 /* ViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -271,8 +287,16 @@
 		C8BC95C2167260910089BB53 /* button */ = {
 			isa = PBXGroup;
 			children = (
-				C8BC95C3167260910089BB53 /* back_button_black.png */,
-				C8BC95C4167260910089BB53 /* back_button_grey.png */,
+				C84A07321673184600C81980 /* back_button.png */,
+				C84A07331673184600C81980 /* back_button@2x.png */,
+				C84A07341673184600C81980 /* login_button_black.png */,
+				C84A07351673184600C81980 /* login_button_black@2x.png */,
+				C84A07361673184600C81980 /* login_button.png */,
+				C84A07371673184600C81980 /* login_button@2x.png */,
+				C84A07381673184600C81980 /* nav_launcher.png */,
+				C84A07391673184600C81980 /* nav_launcher@2x.png */,
+				C84A073A1673184600C81980 /* next_button.png */,
+				C84A073B1673184600C81980 /* next_button@2x.png */,
 			);
 			path = button;
 			sourceTree = "<group>";
@@ -333,12 +357,20 @@
 				C8BC95BA16725F8D0089BB53 /* Default-568h@2x.png in Resources */,
 				C8BC95BB16725F8D0089BB53 /* Default.png in Resources */,
 				C8BC95BC16725F8D0089BB53 /* Default@2x.png in Resources */,
-				C8BC95C9167260910089BB53 /* back_button_black.png in Resources */,
-				C8BC95CA167260910089BB53 /* back_button_grey.png in Resources */,
 				C8BC95CF1672631D0089BB53 /* nav_bg.png in Resources */,
 				C8BC95D01672631D0089BB53 /* nav_bg@2x.png in Resources */,
 				C8BC95D5167264A90089BB53 /* MMLoginViewController.xib in Resources */,
 				C84A072F16730AAD00C81980 /* MMLeftViewController.xib in Resources */,
+				C84A073C1673184600C81980 /* back_button.png in Resources */,
+				C84A073D1673184600C81980 /* back_button@2x.png in Resources */,
+				C84A073E1673184600C81980 /* login_button_black.png in Resources */,
+				C84A073F1673184600C81980 /* login_button_black@2x.png in Resources */,
+				C84A07401673184600C81980 /* login_button.png in Resources */,
+				C84A07411673184600C81980 /* login_button@2x.png in Resources */,
+				C84A07421673184600C81980 /* nav_launcher.png in Resources */,
+				C84A07431673184600C81980 /* nav_launcher@2x.png in Resources */,
+				C84A07441673184600C81980 /* next_button.png in Resources */,
+				C84A07451673184600C81980 /* next_button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,13 +381,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8BC95B716725F8D0089BB53 /* ViewController.m in Sources */,
 				C8BC95B916725F8D0089BB53 /* main.m in Sources */,
 				C8BC95CC1672630D0089BB53 /* AppDelegate.m in Sources */,
 				C8BC95D4167264A90089BB53 /* MMLoginViewController.m in Sources */,
 				C84A07261672FBB000C81980 /* IIViewDeckController.m in Sources */,
 				C84A07271672FBB000C81980 /* WrapController.m in Sources */,
 				C84A072E16730AAD00C81980 /* MMLeftViewController.m in Sources */,
+				C84A07311673182D00C81980 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
