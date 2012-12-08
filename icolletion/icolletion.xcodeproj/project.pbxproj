@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84A07261672FBB000C81980 /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A07231672FBB000C81980 /* IIViewDeckController.m */; };
+		C84A07271672FBB000C81980 /* WrapController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A07251672FBB000C81980 /* WrapController.m */; };
+		C84A072A1672FBF600C81980 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84A07291672FBF600C81980 /* QuartzCore.framework */; };
+		C84A072E16730AAD00C81980 /* MMLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A072C16730AAD00C81980 /* MMLeftViewController.m */; };
+		C84A072F16730AAD00C81980 /* MMLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84A072D16730AAD00C81980 /* MMLeftViewController.xib */; };
 		C8BC957C16725DA80089BB53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC957B16725DA80089BB53 /* UIKit.framework */; };
 		C8BC957E16725DA80089BB53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC957D16725DA80089BB53 /* Foundation.framework */; };
 		C8BC958016725DA80089BB53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BC957F16725DA80089BB53 /* CoreGraphics.framework */; };
@@ -27,6 +32,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C84A07221672FBB000C81980 /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
+		C84A07231672FBB000C81980 /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
+		C84A07241672FBB000C81980 /* WrapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WrapController.h; sourceTree = "<group>"; };
+		C84A07251672FBB000C81980 /* WrapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WrapController.m; sourceTree = "<group>"; };
+		C84A07291672FBF600C81980 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C84A072B16730AAD00C81980 /* MMLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLeftViewController.h; sourceTree = "<group>"; };
+		C84A072C16730AAD00C81980 /* MMLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLeftViewController.m; sourceTree = "<group>"; };
+		C84A072D16730AAD00C81980 /* MMLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMLeftViewController.xib; sourceTree = "<group>"; };
 		C8BC957716725DA80089BB53 /* icolletion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icolletion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BC957B16725DA80089BB53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8BC957D16725DA80089BB53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84A072A1672FBF600C81980 /* QuartzCore.framework in Frameworks */,
 				C8BC957C16725DA80089BB53 /* UIKit.framework in Frameworks */,
 				C8BC957E16725DA80089BB53 /* Foundation.framework in Frameworks */,
 				C8BC958016725DA80089BB53 /* CoreGraphics.framework in Frameworks */,
@@ -66,6 +80,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C84A07211672FBB000C81980 /* ViewDeck */ = {
+			isa = PBXGroup;
+			children = (
+				C84A07221672FBB000C81980 /* IIViewDeckController.h */,
+				C84A07231672FBB000C81980 /* IIViewDeckController.m */,
+				C84A07241672FBB000C81980 /* WrapController.h */,
+				C84A07251672FBB000C81980 /* WrapController.m */,
+			);
+			path = ViewDeck;
+			sourceTree = "<group>";
+		};
 		C8BC956C16725DA80089BB53 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +111,7 @@
 		C8BC957A16725DA80089BB53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C84A07291672FBF600C81980 /* QuartzCore.framework */,
 				C8BC957B16725DA80089BB53 /* UIKit.framework */,
 				C8BC957D16725DA80089BB53 /* Foundation.framework */,
 				C8BC957F16725DA80089BB53 /* CoreGraphics.framework */,
@@ -138,6 +164,9 @@
 				C8BC95D1167264A90089BB53 /* MMLoginViewController.h */,
 				C8BC95D2167264A90089BB53 /* MMLoginViewController.m */,
 				C8BC95D3167264A90089BB53 /* MMLoginViewController.xib */,
+				C84A072B16730AAD00C81980 /* MMLeftViewController.h */,
+				C84A072C16730AAD00C81980 /* MMLeftViewController.m */,
+				C84A072D16730AAD00C81980 /* MMLeftViewController.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -187,6 +216,7 @@
 		C8BC95AC16725F8D0089BB53 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				C84A07211672FBB000C81980 /* ViewDeck */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -308,6 +338,7 @@
 				C8BC95CF1672631D0089BB53 /* nav_bg.png in Resources */,
 				C8BC95D01672631D0089BB53 /* nav_bg@2x.png in Resources */,
 				C8BC95D5167264A90089BB53 /* MMLoginViewController.xib in Resources */,
+				C84A072F16730AAD00C81980 /* MMLeftViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +353,9 @@
 				C8BC95B916725F8D0089BB53 /* main.m in Sources */,
 				C8BC95CC1672630D0089BB53 /* AppDelegate.m in Sources */,
 				C8BC95D4167264A90089BB53 /* MMLoginViewController.m in Sources */,
+				C84A07261672FBB000C81980 /* IIViewDeckController.m in Sources */,
+				C84A07271672FBB000C81980 /* WrapController.m in Sources */,
+				C84A072E16730AAD00C81980 /* MMLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +473,7 @@
 				C8BC959D16725DA80089BB53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -25,7 +25,8 @@
 
 - (void)viewDidLoad
 {
-    [self initView];
+//    [self initView];
+    self.title = @"Login";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
@@ -38,8 +39,8 @@
 
 - (void)initView
 {
-    
     self.title = @"Login";
+    
     UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
     leftButton.frame = CGRectMake(5.0f, 5.0f, 61.0f, 35.0f);
     [leftButton addTarget:self action:@selector(leftButtonAction:) forControlEvents:UIControlEventTouchUpInside];

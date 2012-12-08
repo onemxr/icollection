@@ -9,14 +9,16 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "MMLeftViewController.h"
+#import "IIViewDeckController.h"
 
 @implementation AppDelegate
 
 - (void)dealloc
 {
-    [_navController release];
+//    [_navController release];
     [_window release];
-    [_viewController release];
+//    [_viewController release];
     [super dealloc];
 }
 
@@ -24,10 +26,15 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.navController = [[[UINavigationController alloc]initWithRootViewController:self.viewController] autorelease];
-    [self.navController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg.png"] forBarMetrics:UIBarMetricsDefault];
-    self.window.rootViewController = self.navController;
+    self.leftController = [[MMLeftViewController alloc] initWithNibName:@"MMLeftViewController" bundle:nil] ;
+    
+    ViewController *centerController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
+    
+    self.centerController = [[UINavigationController alloc]initWithRootViewController:centerController];
+    
+    IIViewDeckController *deckController = [[IIViewDeckController alloc]initWithCenterViewController:self.centerController leftViewController:self.leftController];
+    [self.centerController.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"nav_bg.png"] forBarMetrics:UIBarMetricsDefault];
+    self.window.rootViewController = deckController;
     [self.window makeKeyAndVisible];
     return YES;
 }
