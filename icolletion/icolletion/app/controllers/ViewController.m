@@ -30,6 +30,7 @@
 }
 
 - (void) initView{
+    
     self.title = @"Icolletion";
     UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
     leftButton.frame = CGRectMake(5.0f, 5.0f, 30.0f, 30.0f);
